@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veh Made: "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/txt1"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtmade"
+        android:layout_toRightOf="@+id/txt1"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veh Reg No : "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/txt2"
+        android:layout_below="@+id/txt1"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtreg"
+        android:layout_toRightOf="@+id/txt2"
+        android:layout_below="@id/txtmade"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/txt3"
+        android:text="Model : "
+        android:layout_below="@id/txt2"
+        android:layout_marginLeft="42dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtmodel"
+        android:layout_below="@id/txtreg"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/txt3"/>
+
+
+
+
+
+</RelativeLayout>
